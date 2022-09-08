@@ -28,7 +28,7 @@ Then set the following environment variables in a .env file:
 |`NANOLEAF_BRIGHTNESS`|The brightness your lights will flash at.|More than 50
 |`NANOLEAF_ACCESS_TOKEN`|See below how to obtain an access token. Make sure `NANOLEAF_IP` is set before running the script.
 
-To obtain an access token, follow the instructions in `nanoleaf_debug.js`. Make sure `NANOLEAF_IP` is set before running.
+To obtain an access token, follow the instructions in `scripts/nanoleaf_debug.js`. Make sure `NANOLEAF_IP` is set before running.
 
 ## Running
 I use [pm2](https://pm2.keymetrics.io/) to run this script in the background whenever my PC is on (`pm2 start . --name lightning && pm2 save`), however you can also just use `npm start`.

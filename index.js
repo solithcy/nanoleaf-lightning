@@ -1,6 +1,6 @@
 require('dotenv').config();
-const Lightning = require('./Lightning');
-const Nanoleaf = require('./Nanoleaf');
+const Lightning = require('./classes/Lightning');
+const Nanoleaf = require('./classes/Nanoleaf');
 const fetch = require('node-fetch');
 const debug = require('debug')('lightning:app');
 
