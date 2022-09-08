@@ -22,7 +22,7 @@ Then set the following environment variables in a .env file:
 
 |Var|Desc|Recommended|
 |--|--|--|
-|`MAX_DISTANCE`|The farthest away a lightning strike can flash your lights (in m).|
+|`MAX_DISTANCE`|The farthest away a lightning strike can flash your lights (in m).|`100000`|
 |`DEBUG`|Debugging|`lightning:*,nanoleaf:*`
 |`NANOLEAF_IP`|The IP of your Nanoleaf device.|
 |`NANOLEAF_BRIGHTNESS`|The brightness your lights will flash at.|More than 50
