@@ -7,7 +7,7 @@ class Lightning extends EventEmitter{
     super();
     this.lat = lat;
     this.lon = lon;
-    this.hosts = ["ws1", "ws5", "ws6", "ws7", "ws8"];
+    this.hosts = ["ws1", "ws7", "ws8"];
     debug(`Initializing..`);
     this.handleWs();
   }
