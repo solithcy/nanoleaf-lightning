@@ -1,7 +1,7 @@
 
 # Nanoleaf Lightning
 
-Uses the [blitzortung.org](https://blitzortung.org) API to display nearby lightning strikes as flashes on Nanoleaf devices. After flashing, the lights reset to it's previous state, meaning you can still use the lights as normal while the script is running.
+Uses the [blitzortung.org](https://blitzortung.org) API to display nearby lightning strikes as flashes on Nanoleaf devices. After flashing, the lights reset to their previous state, meaning you can still use the lights as normal while the script is running.
 
 ## Prerequisites
 
