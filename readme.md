@@ -1,7 +1,7 @@
 
 # Nanoleaf Lightning
 
-Uses the blitzortung.org API to display nearby lightning strikes as flashes on Nanoleaf devices.
+Uses the [blitzortung.org](https://blitzortung.org) API to display nearby lightning strikes as flashes on Nanoleaf devices.
 
 ## Prerequisites
 
@@ -37,5 +37,6 @@ I use [pm2](https://pm2.keymetrics.io/) to run this script in the background whe
 |Author||
 |--|--|
 |RoseChilds|Main project|
+|[blitzortung.org](https://blitzortung.org)|Awesome lightning API|
 |[VadimGarkusha](https://github.com/VadimGarkusha)|[nanoleaf-client](https://github.com/VadimGarkusha/nanoleaf-client)|
 |[mrk-its](https://github.com/mrk-its)|[Blitzortung decoding](https://github.com/mrk-its/homeassistant-blitzortung/blob/master/ws_client/ws_client/client.py#L20-L34)
