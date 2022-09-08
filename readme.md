@@ -16,6 +16,17 @@ npm i
 ```
 
 ## Setup
+Firstly, either download the "strobe" effect by "wispy__band__670" (me), or make a new effect on your Nanoleaf device. It must have the following configuration:
+```
+Name: strobe
+Pallette: Black and (White or other)
+Motion: Burst
+- Delay: 0
+- Loop: yes
+- Speed: max (0.1s between each colour)
+```
+The script [uses this effect](https://github.com/RoseChilds/nanoleaf-lightning/blob/master/classes/Nanoleaf.js#L43-L65) to "flash" the lights, as simply turning them on and off doesn't create the same effect. As the name suggests, don't use this if you have epilepsy.
+
 Get the IP address of your Nanoleaf device (this can be found on your router dashboard).
 
 Then set the following environment variables in a `.env` file:
