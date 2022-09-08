@@ -20,7 +20,7 @@ Firstly, either download the "strobe" effect by "wispy__band__670" (me), or make
 ```
 Name: strobe
 Pallette: Black and (White or other)
-Motion: Burst
+Motion: Flow
 - Delay: 0
 - Loop: yes
 - Speed: max (0.1s between each colour)
