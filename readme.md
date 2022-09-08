@@ -18,7 +18,7 @@ npm i
 ## Setup
 Get the IP address of your Nanoleaf device (this can be found on your router dashboard).
 
-Then set the following environment variables in a .env file:
+Then set the following environment variables in a `.env` file:
 
 |Var|Desc|Recommended|
 |--|--|--|
