@@ -65,7 +65,7 @@ class Nanoleaf{
       }
       await new Promise(r => setTimeout(r, 1000));
     }finally{
-      this.dummyamt -= (amt-1);
+      this.dummyamt -= (amt - 1);
       this.queue.shift();
     }
   }

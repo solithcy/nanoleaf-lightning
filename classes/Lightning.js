@@ -3,7 +3,7 @@ const EventEmitter = require('events');
 const debug = require('debug')('lightning:ws');
 
 class Lightning extends EventEmitter{
-  constructor(lat=0, lon=0){
+  constructor(lat = 0, lon = 0){
     super();
     this.lat = lat;
     this.lon = lon;
