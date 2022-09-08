@@ -1,0 +1,19 @@
+{
+  "name": "lightning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.2",
+    "nanoleaf-client": "^0.2.2",
+    "node-fetch": "^2.6.7",
+    "ws": "^8.8.1"
+  }
+}
