@@ -10,7 +10,7 @@ Uses the [blitzortung.org](https://blitzortung.org) API to display nearby lightn
 
 ## Installation
 ```
-git clone https://github.com/RoseChilds/nanoleaf-lightning
+git clone https://github.com/solithcy/nanoleaf-lightning
 cd nanoleaf-lightning
 npm i
 ```
@@ -47,7 +47,7 @@ I use [pm2](https://pm2.keymetrics.io/) to run this script in the background whe
 ## Credits
 |Author||
 |--|--|
-|RoseChilds|Main project|
+|me|Main project|
 |[blitzortung.org](https://blitzortung.org)|Awesome lightning API|
 |[VadimGarkusha](https://github.com/VadimGarkusha)|[nanoleaf-client](https://github.com/VadimGarkusha/nanoleaf-client)|
 |[mrk-its](https://github.com/mrk-its)|[Blitzortung decoding](https://github.com/mrk-its/homeassistant-blitzortung/blob/master/ws_client/ws_client/client.py#L20-L34)
